@@ -1,6 +1,18 @@
+body {
+    margin: 0px;
+}
+
 h1 {
     font-size: 50px;
     font-family: 'Redressed', cursive;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+p {
+    text-align: justify;
 }
 
 .name-color {
@@ -9,16 +21,82 @@ h1 {
 
 section {
     display: inline-block;
+    padding-bottom: 160px;
 }
 
 .half-width {
     width: 40%;
-    border: 1px solid red;
-    float: left;
+    /*border: 1px solid red;*/
     margin-left: 5%;
     padding-left: 2%;
+    float: left;
 }
 
 .half-width img {
     width: 100%;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+}
+
+.link {
+    text-decoration: none;
+    background-color: #e45a0a;
+    background-image: linear-gradient(45deg, lightsalmon tomato);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.h3-color {
+    color: chocolate;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    height: 90%;
+    background-color: white;
+}
+
+.h2-edit {
+    box-shadow: 10px 10px 40px gray;
+    width: 15%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    background-color: #FFCA1B;
+}
+
+.experience-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fency-design {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#fency-design2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, aqua);
+    border-image-slice: 1;
+}
+
+.copyright p {
+    text-align: center;
 }
